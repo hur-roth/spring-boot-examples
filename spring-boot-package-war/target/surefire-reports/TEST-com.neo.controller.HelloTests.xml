@@ -1,104 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.neo.controller.HelloTests" time="0.014" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="com.neo.controller.HelloTests" time="0.239" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="19.0.1"/>
-    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="OpenLogic-OpenJDK"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/hur/spring-boot-examples/spring-boot-package-war"/>
-    <property name="java.vm.vendor" value="Homebrew"/>
-    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="IL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/hur/spring-boot-examples/spring-boot-package-war"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="19.0.1"/>
+    <property name="java.runtime.version" value="1.8.0_352-internal-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/yp/h2nbt26s58j_xglq9hv7v9mw0000gp/T/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.7/libexec/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/hur/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.7/libexec/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="63.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="12.6"/>
+    <property name="os.version" value="10.16"/>
     <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.7/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/hur"/>
     <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="19"/>
     <property name="user.name" value="hur"/>
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.7/libexec/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="19"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home"/>
-    <property name="apple.awt.application.name" value="Launcher"/>
-    <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="19.0.1"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Homebrew"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_352-internal"/>
+    <property name="java.ext.dirs" value="/Users/hur/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/openlogic-openjdk-8.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="OpenLogic-OpenJDK"/>
+    <property name="java.specification.maintenance.version" value="4"/>
     <property name="maven.home" value="/usr/local/Cellar/maven/3.8.7/libexec"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2022-10-18"/>
-    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="getHello" classname="com.neo.controller.HelloTests" time="0.014">
-    <error message="javax/xml/bind/ValidationException" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: javax/xml/bind/ValidationException
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.hibernate.validator.internal.engine.ConfigurationImpl.<init>(ConfigurationImpl.java:129)
-	at org.hibernate.validator.internal.engine.ConfigurationImpl.<init>(ConfigurationImpl.java:96)
-	at org.hibernate.validator.HibernateValidator.createGenericConfiguration(HibernateValidator.java:31)
-	at javax.validation.Validation$GenericBootstrapImpl.configure(Validation.java:276)
-	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:223)
-	at org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean.afterPropertiesSet(OptionalValidatorFactoryBean.java:40)
-	at org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StandaloneConfiguration.mvcValidator(StandaloneMockMvcBuilder.java:441)
-	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getConfigurableWebBindingInitializer(WebMvcConfigurationSupport.java:522)
-	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:486)
-	at org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder.registerMvcSingletons(StandaloneMockMvcBuilder.java:349)
-	at org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder.initWebAppContext(StandaloneMockMvcBuilder.java:331)
-	at org.springframework.test.web.servlet.setup.AbstractMockMvcBuilder.build(AbstractMockMvcBuilder.java:127)
-	at com.neo.controller.HelloTests.setUp(HelloTests.java:29)
-]]></error>
-    <system-out><![CDATA[2023-01-22 15:06:24.996  INFO 88144 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neo.controller.HelloTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2023-01-22 15:06:24.997  INFO 88144 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2023-01-22 15:06:24.998  INFO 88144 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-2023-01-22 15:06:24.998  INFO 88144 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-2023-01-22 15:06:24.998  INFO 88144 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4275c20c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c56e013, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3fc9dfc5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40258c2f]
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v1.3.6.RELEASE)
-
-2023-01-22 15:06:25.035  INFO 88144 --- [           main] com.neo.controller.HelloTests            : Starting HelloTests on SCM-L-M-028.local with PID 88144 (/Users/hur/spring-boot-examples/spring-boot-package-war/target/test-classes started by hur in /Users/hur/spring-boot-examples/spring-boot-package-war)
-2023-01-22 15:06:25.035  INFO 88144 --- [           main] com.neo.controller.HelloTests            : No active profile set, falling back to default profiles: default
-2023-01-22 15:06:25.036  INFO 88144 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4f936da8: startup date [Sun Jan 22 15:06:25 IST 2023]; root of context hierarchy
-2023-01-22 15:06:25.090  INFO 88144 --- [           main] com.neo.controller.HelloTests            : Started HelloTests in 0.08 seconds (JVM running for 1.362)
-2023-01-22 15:06:25.194  INFO 88144 --- [           main] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.neo.controller.HelloWorldController.index()
-]]></system-out>
-  </testcase>
+  <testcase name="getHello" classname="com.neo.controller.HelloTests" time="0.239"/>
 </testsuite>
